@@ -5,7 +5,7 @@ export const useSearch = (array, value) => {
   const [error, setError] = useState();
   useEffect(() => {
     findData();
-  }, []);
+  }, [value]);
 
   //TODO : write RegEx for more precision
   const findData = () => {
