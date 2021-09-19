@@ -10,7 +10,9 @@
   .roboto-regular {
     font-family: "roboto-regular";
   }
-
+  .min-h-screen{
+    min-height : 100vh;
+  }
 }
 @font-face {
   font-family: "exo-bold";
