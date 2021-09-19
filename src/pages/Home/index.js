@@ -14,7 +14,9 @@ const Home = ({ list }) => {
 };
 
 Home.propTypes = {
-  list: PropTypes.array.isRequired,
+  list: PropTypes.shape({
+    coffees: PropTypes.array.isRequired,
+  }),
 };
 
 /* using currying func react-redux/connect in order to talk to dispatcher
