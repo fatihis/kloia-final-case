@@ -1,7 +1,12 @@
-import { reducer } from "../reducers";
 import { createStore } from "redux";
-
+import coffees from "../db/coffees.json";
 /* createStore to serve data*/
+const reducerInitialState = { coffees };
+
+const reducer = (state = reducerInitialState) => {
+  return state;
+};
+
 export const store = createStore(reducer);
 
 /*returns store's data as prop to the component
