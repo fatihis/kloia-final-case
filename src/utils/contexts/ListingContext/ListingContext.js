@@ -1,5 +1,5 @@
-import { createContext, useState } from "react";
-
+import React, { createContext, useState } from "react";
+import PropTypes from "prop-types";
 export const ListingContext = createContext();
 
 //Returns Context provider for search text and filter
@@ -18,4 +18,8 @@ export const ListingContextProvider = ({ children }) => {
       {children}
     </ListingContext.Provider>
   );
+};
+
+ListingContextProvider.propTypes = {
+  children: PropTypes.node.isRequired,
 };
