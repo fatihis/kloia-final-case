@@ -5,7 +5,11 @@ import { MenuItem } from "../../ComponentBlocks/MenuItem";
 
 export const Menu = (props) => {
   const listingContext = useContext(ListingContext);
-  const elements = useSearch(props.list, listingContext.searchString).data;
+  const elements = useSearch(
+    props.list,
+    listingContext.searchString,
+    listingContext.filter
+  ).data;
   return (
     <div className="w-full px-16 flex flex-col min-h-full pt-8">
       {elements.map((element) => {
