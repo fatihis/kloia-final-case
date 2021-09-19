@@ -1,19 +1,24 @@
-import "./styles/styles.css";
-
 import React, { useState } from "react";
-
-export const SimpleFilterLabel = (props) => {
-  const [category, _] = useState(props.text);
+import "./styles/styles.css";
+import PropTypes from "prop-types";
+export const SimpleFilterLabel = ({ onClick, isActive, text }) => {
+  const [category] = useState(text);
   return (
     <div
-      onClick={props.onClick}
+      onClick={onClick}
       className="w-full flex items-start justify-start h-4 mb-2"
     >
-      {props.isActive ? (
+      {isActive ? (
         <p className="active cursor-pointer exo-bold font-bold">{category}</p>
       ) : (
         <p className="cursor-pointer roboto-regular">{category}</p>
       )}
     </div>
   );
+};
+
+SimpleFilterLabel.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  text: PropTypes.string.isRequired,
+  isActive: PropTypes.bool.isRequired,
 };
