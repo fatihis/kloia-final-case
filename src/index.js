@@ -3,14 +3,17 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { Provider } from "react-redux";
-import { reducer } from "./utils/reducers";
-import { store } from "./utils/store";
+import { store } from "./utils/store/store";
 import * as serviceWorker from "./serviceWorker";
 import Home from "./pages/Home";
-
+import { ListingContextProvider } from "./utils/contexts/ListingContext/ListingContext";
+import "./utils/fonts/exo-bold/exo-bold.woff2";
+import "./utils/fonts/roboto-regular/roboto-regular.woff2";
 ReactDOM.render(
   <Provider store={store}>
-    <Home />
+    <ListingContextProvider>
+      <Home />
+    </ListingContextProvider>
   </Provider>,
   document.getElementById("root")
 );

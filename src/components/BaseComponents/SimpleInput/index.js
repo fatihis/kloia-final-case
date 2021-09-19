@@ -6,7 +6,7 @@ export const SimpleInput = (props) => {
         type="text"
         placeholder={props.placeholder}
         onChange={(event) => props.onChange(event.target.value)}
-        class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200"
+        class="roboto-regular px-4 py-2 lg:w-full rounded-lg border border-gray-300  focus:outline-none focus:ring-2 focus:ring-gray-200"
       />
     </div>
   );

@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ListingContext } from "../../../utils/contexts/ListingContext/ListingContext";
 import { SimpleInput } from "../../BaseComponents/SimpleInput";
 
-export const SearchBox = (props) => {
+export const SearchBox = () => {
   const listingContext = useContext(ListingContext);
 
   return (
