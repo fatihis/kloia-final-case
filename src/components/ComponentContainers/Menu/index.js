@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { ListingContext } from "../../../utils/contexts/ListingContext/ListingContext";
-import { useSearch } from "../../../utils/useSearch";
 import { MenuItem } from "../../ComponentBlocks/MenuItem";
 import PropTypes from "prop-types";
+import { useSearch } from "../../../utils/hooks/useSearch/useSearch";
 export const Menu = ({ list }) => {
   const listingContext = useContext(ListingContext);
   //useSearch hook for continuous delivery of content that bond to searched text

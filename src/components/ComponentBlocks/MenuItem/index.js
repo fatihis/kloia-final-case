@@ -3,11 +3,11 @@ import { SimpleTextBlock } from "../../BaseComponents/SimpleTextBlock";
 import PropTypes from "prop-types";
 export const MenuItem = ({ item }) => {
   return (
-    <div className="w-full h-full  flex flex-col mb-10 max-h-60  lg:max-h-full">
+    <div className="w-full h-full  flex flex-col mb-10 max-h-32  lg:max-h-full">
       <SimpleTextBlock text={item.title} type="header" />
       <SimpleTextBlock text={item.description} type="description" />
       <SimpleTextBlock
-        text={`Ingredients: ${item.ingredients}`}
+        text={`Ingredients:  ${item.ingredients.join(", ")}`} //joining ingredient items with space
         type="annotation"
       />
     </div>

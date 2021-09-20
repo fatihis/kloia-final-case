@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 export const SimpleTextBlock = ({ text, type }) => {
   return (
     <div className="flex-1 flex items-center mb-1 ">
+      {/* rendering text in order to type */}
       {type === "header" ? (
         <h4 className=" exo-bold font-extrabold  text-2xl mb-1">{text}</h4>
       ) : type === "description" ? (
