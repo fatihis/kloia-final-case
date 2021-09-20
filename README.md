@@ -24,7 +24,7 @@ Installation:
 `npm install`
 
 To Run Test Suite:
-- 7 test suites with 15 tests total
+- 9 test suites with 20 tests total
 
 `npm test` || `yarn run test` 
 
