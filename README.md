@@ -1,44 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## Coffee Shop Menu - Kloia Case
 
-## Available Scripts
 
-In the project directory, you can run:
+An application for displaying and filtering products.
 
-### `yarn start`
+## Project Status
+####TODO:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Move search string and filter string texts to Redux environment
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Screenshots
 
-### `yarn test`
+![sc one](https://i.ibb.co/hcsfqhG/ss.png)
+![sc one](https://i.ibb.co/dpHfJTv/ss2.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Deployment
 
-### `yarn build`
+https://kloia-final-case-jzsm8smdv-fatihis.vercel.app/ (nearly 10 commit behind right now)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Setup Instructions
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm install`
 
-### `yarn eject`
+To Run Test Suite:
+- 7 test suites with 15 tests total
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`npm test` || `yarn run test` 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To Start Server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`yarn start` || `npm start` 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To Visit App:
 
-## Learn More
+`localhost:3000/`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Reflection
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- This was a 2 day project that focuses on maintainable and clean code
+- Used ContextAPI, Redux, Custom Hooks while implementing the project
+- First time I am using redux, I did not have time to read documentation properly
+- Environment
+    - React.js, Redux, TailwindCSS, Craco, ESLint, React testing library
+
+### Dependencies
+	"@reduxjs/toolkit": "^1.5.1"
+	"prop-types": "^15.7.2"
+	"@craco/craco": "^6.3.0"
+    "@testing-library/jest-dom": "^4.2.4"
+    "@testing-library/react": "^9.3.2"
+    "@testing-library/user-event": "^7.1.2"
+    "autoprefixer": "^9.8.6"
+    "eslint-plugin-react": "^7.25.2"
+    "postcss": "^7.0.36"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
