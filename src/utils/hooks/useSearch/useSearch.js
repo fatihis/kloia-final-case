@@ -25,6 +25,9 @@ export const useSearch = (array, value, filter) => {
   const regExElement = (element) => {
     value = value.toLowerCase();
     let title = element.title.toLowerCase();
+    //!! UNCOMMENT LINE BELOW, IF DESCRIPTION SHOULD BE INCLUDED AS SEARCHING PARAMETER !!
+    //let description = element.description.toLowerCase();
+    //AND CHANGE RETURN STATEMENT AS ==> (title.includes(value) || description.includes(value)) && (element.category === filter || filter === "" || filter === "All Coffees") <==
     return (
       title.includes(value) &&
       (element.category === filter || filter === "" || filter === "All Coffees")
