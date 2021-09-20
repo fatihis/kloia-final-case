@@ -15,7 +15,7 @@ An application for displaying and filtering products.
 
 ## Deployment
 
-https://kloia-final-case-jzsm8smdv-fatihis.vercel.app/ (nearly 10 commit behind right now)
+https://kloia-final-case-jzsm8smdv-fatihis.vercel.app/ 
 
 ## Installation and Setup Instructions
 
