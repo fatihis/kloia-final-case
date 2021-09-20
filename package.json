@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.2",
     "autoprefixer": "^9.8.6",
     "eslint-plugin-react": "^7.25.2",
     "postcss": "^7.0.36",
