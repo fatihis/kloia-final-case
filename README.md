@@ -19,6 +19,7 @@ https://kloia-final-case-jzsm8smdv-fatihis.vercel.app/ (nearly 10 commit behind 
 
 ## Installation and Setup Instructions
 
+Installation:
 
 `npm install`
 
