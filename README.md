@@ -1,12 +1,18 @@
-## Coffee Shop Menu - Kloia Case
-
+# Coffee Shop Menu - Kloia Case
 
 An application for displaying and filtering products.
 
 ## Project Status
+
+- All coffees listing properly
+- Searching by input works great
+- Filtering with menu options works great
+- All components designed to be responsive
+
 #### TODO:
 
 - Move search string and filter string texts to Redux environment
+- MenuItem component could be used under useMemo hook, need to do some research
 
 ## Screenshots
 
@@ -15,7 +21,7 @@ An application for displaying and filtering products.
 
 ## Deployment
 
-https://kloia-final-case-jzsm8smdv-fatihis.vercel.app/ 
+https://kloia-final-case.vercel.app/
 
 ## Installation and Setup Instructions
 
@@ -26,11 +32,11 @@ Installation:
 To Run Test Suite:
 - 9 test suites with 20 tests total
 
-`npm test` || `yarn run test` 
+`npm test` || `yarn run test`
 
 To Start Server:
 
-`yarn start` || `npm start` 
+`yarn start` || `npm start`
 
 To Visit App:
 
@@ -55,3 +61,19 @@ To Visit App:
     "eslint-plugin-react": "^7.25.2"
     "postcss": "^7.0.36"
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
+
+## Help
+
+For requests and help, please contact at bfatihisik@gmail.com
+
+## Authors
+
+Contributors names and contact info
+
+ [@fatihis](https://github.com/fatihis)
+
+## Version History
+
+* 0.1
+    * Initial Release
+    * See [commit change](https://github.com/fatihis/kloia-final-case/commits/master) 
