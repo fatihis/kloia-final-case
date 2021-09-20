@@ -4,7 +4,7 @@
 An application for displaying and filtering products.
 
 ## Project Status
-####TODO:
+#### TODO:
 
 - Move search string and filter string texts to Redux environment
 
@@ -13,7 +13,7 @@ An application for displaying and filtering products.
 ![sc one](https://i.ibb.co/hcsfqhG/ss.png)
 ![sc one](https://i.ibb.co/dpHfJTv/ss2.png)
 
-##Deployment
+## Deployment
 
 https://kloia-final-case-jzsm8smdv-fatihis.vercel.app/ (nearly 10 commit behind right now)
 
